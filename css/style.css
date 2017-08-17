@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 96%;
+	max-width: 960px;
+	heigth: 960px;
+	margin: 0px auto;
+	padding: 2%;
+}
+
+body {
+	background-color: #fff;
+	font-size: 13px;
+	color: #666;
+	font-family: Arial, helvetica, sans-serif;
+}
+
+header nav {
+	margin-top: 5%;
+	float: right;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	/*cada li va a estar uno  al lado del otro, incluso usando </br>*/
+	margin-left: 15px;
+}
+
+h1 {
+	margin-bottom: 10px;
+	color: #e20018;
+	text-align: center;
+}
+
+.centrar {
+	display: block;
+	margin: 0px auto;
+	padding: 10px 0px;
+}
+
+.precioFormato{display: block;
+	margin: 0px auto;
+	padding: 10px 0px;
+	text-align:center;
+	color:#ff8000;
+	font-size:24px;
+	font-weight:900;
+	border:3px double;
+	width:50%;}	
+	
+	#servicios{color:#e26b32;
+	font-size:15px;
+	text-align:center;
+	padding-top: 20px;}
